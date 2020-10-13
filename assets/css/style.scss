@@ -1,0 +1,34 @@
+---
+---
+
+@charset "UTF-8";
+
+* {
+margin: 0;
+padding: 0;
+}
+
+.periodictable {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; // Eighteen
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; // Ten
+}
+
+div {
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+// Elemental Rules
+
+@import "nonmetal";
+@import "noble-gas";
+@import "alkali-metal";
+@import "alkaline-earth-metal";
+@import "metalloid";
+@import "halogen";
+@import "post-transition-metal";
+@import "transition-metal";
+@import "lanthanide";
+@import "actinide";

@@ -1,0 +1,40 @@
+.nonmetal {
+    background-color: lightgoldenrodyellow;
+}
+
+// Element Locations
+
+#hydrogen {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#carbon {
+    grid-column: 14;
+    grid-row: 2;
+}
+
+#nitrogen {
+    grid-column: 15;
+    grid-row: 2;
+}
+
+#oxygen {
+    grid-column: 16;
+    grid-row: 2;
+}
+
+#phosphorus {
+    grid-column: 15;
+    grid-row: 3;
+}
+
+#sulfur {
+    grid-column: 16;
+    grid-row: 3;
+}
+
+#selenium {
+    grid-column: 16;
+    grid-row: 4;
+}

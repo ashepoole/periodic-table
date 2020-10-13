@@ -1,0 +1,40 @@
+.metalloid {
+    background-color: lightgreen;
+}
+
+// Element Locations
+
+#boron {
+    grid-column: 13;
+    grid-row: 2;
+}
+
+#silicon {
+    grid-column: 14;
+    grid-row: 3;
+}
+
+#germanium {
+    grid-column: 14;
+    grid-row: 4;
+}
+
+#arsenic {
+    grid-column: 15;
+    grid-row: 4;
+}
+
+#antimony {
+    grid-column: 15;
+    grid-row: 5;
+}
+
+#tellurium {
+    grid-column: 16;
+    grid-row: 5;
+}
+
+#polonium {
+    grid-column: 16;
+    grid-row: 6;
+}
