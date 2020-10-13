@@ -22,10 +22,22 @@ h2 {
     font-weight: 700;
 }
 
+main {
+    padding: 120px;
+}
+
+span {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+}
+
 .periodictable {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; // Eighteen
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; // Ten
+    grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px; // Eighteen
+    grid-template-rows: 120px 120px 120px 120px 120px 120px 120px 120px 120px 120px; // Ten
 }
 
 .symbol {
